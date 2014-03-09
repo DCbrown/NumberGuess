@@ -1,0 +1,65 @@
+body {
+  position: relative;
+  left:auto;
+  right:auto;
+}
+
+div {
+  text-align:center;
+  margin:20px;
+  padding:5px;
+  font-family: Lucida Grande;
+  vertical-align: middle;
+}
+
+#wrap {
+  width:250px;
+  text-align: center; 
+  margin:auto;
+}
+
+#display {
+  display:block;
+  font-size:20px;
+  color:white;
+  background:black;
+  height:200px;
+  width:200px;
+  border-color:silver;
+  border-width:5px;
+  border-style:double;
+  text-align: left;
+}
+
+#display, p{
+text-align:center;
+}
+
+#input_area {
+  display:block;
+  width:200px;
+  border-color:silver;
+  border-width:5px;
+}
+
+button {
+  background-color:white;
+  width:100px;
+  margin-top:4px;
+  border-radius:20px;
+  font-size:14px;
+}
+
+#field {
+  font-size:20px;
+  color:white;
+  background:black;
+  height:40px;
+  width:200px;
+  border-color:silver;
+  border-width:5px;
+  border-style:double;
+  text-align: center;
+}
+
+
