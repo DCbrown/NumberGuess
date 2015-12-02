@@ -1,4 +1,4 @@
-body {
+bbody {
   position: relative;
   left:auto;
   right:auto;
@@ -12,54 +12,15 @@ div {
   vertical-align: middle;
 }
 
-#wrap {
-  width:250px;
-  text-align: center; 
-  margin:auto;
+input{
+  text-align: center !important;
 }
 
-#display {
-  display:block;
-  font-size:20px;
-  color:white;
-  background:black;
-  height:200px;
-  width:200px;
-  border-color:silver;
-  border-width:5px;
-  border-style:double;
-  text-align: left;
+.backdrop{
+ background-color:rgba(52, 152, 219,0.5);
+ border-radius: 15px;
 }
 
-#display, p{
-text-align:center;
+button{
+  margin: 20px;
 }
-
-#input_area {
-  display:block;
-  width:200px;
-  border-color:silver;
-  border-width:5px;
-}
-
-button {
-  background-color:white;
-  width:100px;
-  margin-top:4px;
-  border-radius:20px;
-  font-size:14px;
-}
-
-#field {
-  font-size:20px;
-  color:white;
-  background:black;
-  height:40px;
-  width:200px;
-  border-color:silver;
-  border-width:5px;
-  border-style:double;
-  text-align: center;
-}
-
-
